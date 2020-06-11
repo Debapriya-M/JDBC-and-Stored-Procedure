@@ -1,0 +1,8 @@
+Q1 execution steps:
+1. Add db2jcc-db2jcc4.jar to the JAVA CLASSPATH
+2. java SalaryStdDev SAMPLE EMPLOYEE DB2INST1 password
+
+
+Q2 execution steps:
+1. db2 connect to SAMPLE
+2. db2 -td@ -f sp_SalaryStdDev.sql
